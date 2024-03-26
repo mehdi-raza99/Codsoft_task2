@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top
+{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    padding: 10px;
+    background-color: chocolate;
+    justify-content: space-around;
+}
+.facebook
+{
+    margin-left: 40%;
+}
+.hover
+{
+    cursor: pointer;
+}
+.header
+{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    font-size: larger;
+}
+.logo
+{
+    height: 100px;
+    width: 100px;
+    background-image: url(logo.png);
+    background-size: cover;
+    margin-right: 40rem;
+}
+.heroSection
+{
+border: 1px solid black;
+}
+.heroPic
+{
+    height: 50rem;
+    width: auto;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 80%, rgba(0,0,0,1)100%), url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heroText
+{
+    font-weight: lighter;
+    font-family: cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    color: #FDA403;
+    gap: 2rem;
+}
+.reasons
+{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box
+{
+    height: 7rem;
+    width: 30rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.reasonsImage
+{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.locations
+{
+    padding: 50px;
+    margin-top: 5px;
+    margin-left: 20rem;
+    width: auto;
+    /* border: 5px solid blue; */
+    display: grid;
+    grid-template-areas: 
+    "pic1 pic2 pic3"
+    "pic4 pic5 pic6";
+    row-gap: 15rem;
+}
+.picBox
+{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.pic1{ grid-area: pic1;}
+.pic2{ grid-area: pic2;}
+.pic3{ grid-area: pic3;}
+.pic4{ grid-area: pic4;}
+.pic5{ grid-area: pic5;}
+.pic6{ grid-area: pic6;}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+.footer
+{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem 5rem 3rem 5rem;
+}
+.footerBox{
+    height: 20rem;
+    width: 20rem;
+}
